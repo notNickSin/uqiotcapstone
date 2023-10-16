@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/444d90f1-2728-41d8-b7eb-69558b0c7353/resourceGroups/uqiotcapstone/providers/Microsoft.Web/sites/uqiotcapstone",
+    "appService.deploySubpath": "smartapp"
+}
