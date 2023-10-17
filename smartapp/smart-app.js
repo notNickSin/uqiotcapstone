@@ -52,6 +52,12 @@ server.get('/', function (req, res) {
     res.send('This is the root path. No GET endpoint available here.');
 });
 
+server.post('/confirmation', (req, res) => {
+// Assuming the confirmation request is sent as a POST request
+    const confirmationData = req.body.confirmationData;
+    console.log(confirmationData);
+    res.send('Confirmation request received');
+});
 
 /* Start listening at your defined PORT */
 server.listen(PORT, () => console.log(`Server is up and running on port ${PORT}`));
